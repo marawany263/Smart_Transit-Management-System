@@ -47,3 +47,5 @@ export function resetData() {
   localStorage.removeItem(DATA_KEY);
   return clone(seedData);
 }
+
+// Build cache bust for GitHub Pages CDN propagation.
